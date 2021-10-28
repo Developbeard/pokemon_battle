@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  basePoke: 'https://pokeapi.co/api/v2/',
+  baseAPI: "http://localhost:4000/api/pokemons"
 };
 
 /*
